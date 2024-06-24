@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ImageToRoll\ImageToRollFramework\ImageToRollFramework.csproj" />
+    <ProjectReference Include="..\RollPrintFramework\RollPrintFramework.csproj" />
   </ItemGroup>
 
   <ItemGroup>
