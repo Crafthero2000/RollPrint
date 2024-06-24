@@ -13,14 +13,14 @@ using System.Net;
 using System.Net.Sockets;
 namespace RollPrint
 {
-    public partial class Form1 : MaterialForm
+    public partial class MainForm : MaterialForm
     {
         //private BluetoothClient bluetoothClient = new BluetoothClient();
         ImageRollHandler imageHandler;
 
         MaterialSkinManager skinManager;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             bluetoothServiceBackgroundWorker.RunWorkerAsync();
