@@ -1,4 +1,4 @@
-using ImageToRollFramework;
+using RollPrintFramework;
 using InTheHand.Net;
 using InTheHand.Net.Bluetooth;
 using InTheHand.Net.Sockets;
@@ -16,7 +16,7 @@ namespace RollPrint
     public partial class MainForm : MaterialForm
     {
         //private BluetoothClient bluetoothClient = new BluetoothClient();
-        ImageRollHandler imageHandler;
+        RollPrintHandler imageHandler;
 
         MaterialSkinManager skinManager;
 
@@ -31,7 +31,7 @@ namespace RollPrint
             skinManager.Theme = MaterialSkinManager.Themes.DARK;
             skinManager.ColorScheme = new MaterialColorScheme(MaterialPrimary.BlueGrey500, MaterialPrimary.BlueGrey700, MaterialPrimary.BlueGrey100, MaterialAccent.Blue700, MaterialTextShade.LIGHT);
 
-            imageHandler = new ImageRollHandler(canvas);
+            imageHandler = new RollPrintHandler(canvas);
             imageHandler.Items.CollectionChanged += CanvasItems_Changed;
             imageHandler.GenerateFinalImage();
         }
