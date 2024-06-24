@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollPrint", "RollPrint\RollPrint.csproj", "{613986B7-BB3F-42B3-A1D5-AABB28C123F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageToRollFramework", "..\ImageToRoll\ImageToRollFramework\ImageToRollFramework.csproj", "{F71D1BEE-08C3-489F-BAF4-89F93C981D5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613986B7-BB3F-42B3-A1D5-AABB28C123F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613986B7-BB3F-42B3-A1D5-AABB28C123F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613986B7-BB3F-42B3-A1D5-AABB28C123F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613986B7-BB3F-42B3-A1D5-AABB28C123F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71D1BEE-08C3-489F-BAF4-89F93C981D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71D1BEE-08C3-489F-BAF4-89F93C981D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71D1BEE-08C3-489F-BAF4-89F93C981D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71D1BEE-08C3-489F-BAF4-89F93C981D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5778995E-5983-49C6-ABCE-F95B8C762E27}
+	EndGlobalSection
+EndGlobal
