@@ -156,7 +156,7 @@ namespace RollPrintFramework
 
         public void AddSeparator()
         {
-            Items.Add(new SeparatorLine(Items.Count + 1));
+            Items.Add(new Divider(Items.Count + 1));
         }
 
         public RollPrintHandler(Canvas canvas, int upperMargin = 1) { _drawArea = canvas; UpperMargin = upperMargin; }
